@@ -1,5 +1,4 @@
 from django.http import HttpResponse
 
-
-def test_de_vue(request):
-    return HttpResponse("<h1>Vue de test</h1>")
+def index(request):
+    return HttpResponse("<h1>Bonjour, Bienvenue sur mon site</h1>")
