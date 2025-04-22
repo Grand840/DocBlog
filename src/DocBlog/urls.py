@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from .views import test_de_vue
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('test/', test_de_vue)
 ]
