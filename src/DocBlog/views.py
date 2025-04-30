@@ -3,4 +3,4 @@ from datetime import datetime
 
 
 def index(request):
-    return render(request, "index.html", context={"date": datetime.today()})
+    return render(request, "DocBlog/index.html", context={"date": datetime.today()})
